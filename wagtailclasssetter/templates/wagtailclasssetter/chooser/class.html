@@ -1,0 +1,19 @@
+{% load wagtailcore_tags %}
+{% load i18n %}
+{% trans "Set class" as caption_str %}
+{% include "wagtailadmin/shared/header.html" with title=caption_str merged=1 tabbed=1 icon="image" %}
+
+<section id="class-setter" class="active nice-padding">
+    <form class="class-setter-form" action="{% url 'class_chosen' %}" method="POST" autocomplete="off">
+        {% csrf_token %}
+        <ul class="fields">
+            {% for field in form %}
+                {% include "wagtailadmin/shared/field_as_li.html" with field=field %}
+                {{ field.errors }}
+            {% endfor %}
+            <li class="submit">
+                <input type="submit" value="{{ caption_str }}" />
+            </li>
+        </ul>
+    </form>
+</section>

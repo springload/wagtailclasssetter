@@ -1,0 +1,2 @@
+include README
+recursive-include wagtailclasssetter *.py *.html *.js *.css *.scss
