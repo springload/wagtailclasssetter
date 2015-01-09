@@ -29,7 +29,7 @@ install_requires = [
 setup(
     name='wagtailclasssetter',
     version=__version__,
-    description='Class setter for <a> tags in Hallo.js editor',
+    description='Class setter for link tags in Hallo.js editor',
     author='Jordi J. Tablada',
     author_email='jordi@springload.co.nz',
     url='https://github.com/springload/wagtailclasssetter/',
