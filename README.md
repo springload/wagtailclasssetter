@@ -18,4 +18,4 @@ add wagtailclasssetter to your settings.py in the INSTALLED_APPS section:
 ...
 ```
 
-On hold until <a> elements attributes can be whitelist. Greats work otherwise :D
+On hold until <a> (links) attributes can be whitelisted. Works great otherwise :D
