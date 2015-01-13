@@ -22,7 +22,10 @@ def editor_js():
         'wagtailclasssetter/js/hallo-classsetter.js',
     ]
     js_includes = format_html_join(
-        '\n', '<script src="{0}{1}"></script>', ((settings.STATIC_URL, filename) for filename in js_files))
+        '\n',
+        '<script src="{0}{1}"></script>',
+        ((settings.STATIC_URL, filename) for filename in js_files)
+    )
 
     return js_includes + format_html("""
             <script>
