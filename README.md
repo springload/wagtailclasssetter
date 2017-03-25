@@ -1,15 +1,18 @@
-wagtailclasssetter
-==================
+# wagtailclasssetter
 
-Class setter for Wagtail Hallo.js editor
+> Class setter for link tags in Hallo.js editor Edit
 
-# Quickstart
+*Check out [Awesome Wagtail](https://github.com/springload/awesome-wagtail) for more awesome packages and resources from the Wagtail community.*
 
-``` $ pip install wagtailclasssetter [GITHUB SSH URI]```
+## Quickstart
 
-add wagtailclasssetter to your settings.py in the INSTALLED_APPS section:
-
+```sh
+pip install wagtailclasssetter [GITHUB SSH URI]
 ```
+
+Add wagtailclasssetter to your settings.py in the INSTALLED_APPS section:
+
+```python
 ...
     'modelcluster',
     'wagtailclasssetter',
