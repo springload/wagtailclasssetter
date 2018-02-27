@@ -7,7 +7,7 @@
 ## Quickstart
 
 ```sh
-pip install wagtailclasssetter [GITHUB SSH URI]
+pip install git+https://github.com/springload/wagtailclasssetter.git
 ```
 
 Add wagtailclasssetter to your settings.py in the INSTALLED_APPS section:
