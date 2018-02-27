@@ -1,4 +1,6 @@
-# wagtailclasssetter
+**!! WARNING: This repo isn't maintained anymore !!**
+
+# Wagtail Class Setter
 
 > Class setter for link tags in Hallo.js editor Edit
 
